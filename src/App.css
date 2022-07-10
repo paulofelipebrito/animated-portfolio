@@ -568,6 +568,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
+
+
 .new-email-bx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -606,6 +608,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
+
+@media (max-width:990px) {
+	.new-email-bx {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .new-email-bx button {
+    padding: 10px 25px;
+  }
+  .newsletter-bx {
+    padding: 85px 55px;
+  }
+}
+
 .footer img {
   width: 26%;
 }
