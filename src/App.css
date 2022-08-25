@@ -75,11 +75,21 @@ input:focus, textarea:focus, select:focus {
 }
 
 p.success {
-	color: green;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  padding: 5px;
+	background-color: green;
 }
 
-p.danger {
-	color: red;
+p.danger {display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  padding: 5px;
+	background-color: red;
 }
 /************ Navbar Css ************/
 nav.navbar {
